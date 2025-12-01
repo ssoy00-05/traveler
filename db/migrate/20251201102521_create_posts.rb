@@ -4,6 +4,7 @@ class CreatePosts < ActiveRecord::Migration[7.1]
       t.string :location
       t.string :text
       t.timestamps
+ 
     end
   end
 end
